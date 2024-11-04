@@ -1,0 +1,60 @@
+.text-center {
+    display: grid;
+    /* width: 100%; */
+    justify-items: center;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.card {
+    margin-bottom: 10%;
+    overflow: hidden;
+}
+
+.card-img-top:hover{
+    transform: scale(1.1);
+    transition: .3s all;
+}
+    
+.card .bi{
+    opacity: 0;
+    position: absolute;
+    top: 65%;
+    left: 85%;
+    transition: .3s;
+    cursor: pointer;
+
+}
+.card:hover .bi{
+   opacity: 1;
+}
+.card .bi-heart{
+    opacity: 0;
+    position: absolute;
+    top: 2%;
+    left: 85%;
+    transition: .3s;
+    cursor: pointer;
+height: ;
+}
+
+
+@media (max-width:1500px) {
+    .text-center {
+        grid-template-columns: 33% 33% 33%;
+
+    }
+}
+
+@media (max-width:1000px) {
+    .text-center {
+        grid-template-columns: 50% 50%;
+
+    }
+}
+
+@media (max-width:500px) {
+    .text-center {
+        grid-template-columns: 100%;
+
+    }
+}

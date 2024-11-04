@@ -1,0 +1,17 @@
+.sair{
+    display: none;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+}
+
+#login:hover .sair{
+    display: flex;
+    background-color: rgb(51, 41, 41);
+    border-radius: 5px;
+}
+.navbar{
+    z-index: 9;
+}

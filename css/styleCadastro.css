@@ -1,0 +1,26 @@
+  @font-face {
+  font-family: 'Agrandir-GrandHeavy';
+  src: url(/font/Agrandir-GrandHeavy.otf);
+}
+.img-fluid{
+  margin-right: 20px;
+  margin-bottom: 4%;
+  border-radius: 4%;
+  width:469px;  
+}
+.form-control:focus {
+  box-shadow: none !important;
+  /* Desativar as bordas do Focus ring */
+}
+.card-title {
+  font-family: 'Agrandir-GrandHeavy';
+}
+.card{
+  opacity: 1.5;
+  border: none; /* Remover borda se preferir */
+}
+.btn-primary{
+  background-color: #2b2b2b !important;
+  border: none !important;
+  color: #ffffff !important ;
+}  

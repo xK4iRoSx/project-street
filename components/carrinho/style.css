@@ -1,0 +1,119 @@
+
+
+.conteiner-superior {
+    position: fixed; /* Mantém na tela */
+    top: 65px;
+    right: -400px; /* Começando fora da tela */
+    width: 400px;
+    height: 80%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.5);
+    transition: .2s all; /* Remove a transição */
+    z-index: 20;
+}
+
+.conteiner-superior.mostrar {
+    right: 0; /* Para abrir */
+}
+
+.conteiner-superior.fechar {
+    right: -300px; /* Para fechar */
+}
+
+.conteiner-superior h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.conteiner-carrinho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.preco {
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 25px;
+}
+
+.teste {
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.botao-fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.botao-fechar:hover {
+    color: #ff0000; 
+}
+
+.containerCarrinho {
+    max-width: 600px;
+    margin: auto;
+    background-color: #2b2828f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+h1 {
+    color: #000;
+    text-align: center;
+}
+.produto {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.produto:last-child {
+    border-bottom: none;
+}
+.valor {
+    font-weight: bold;
+    color: #000;
+}
+.quantidade {
+    color: #000000;
+}
+
+.seta{
+    width: 20px;
+    height: 30px;
+    background-color: #050505;
+    color: white;
+    margin: 10px;
+    border-radius: 50px;
+}
+.remover{
+    background-color: #050505;
+    color: white;
+    height: 30px;
+    border-radius: 50px;
+}
